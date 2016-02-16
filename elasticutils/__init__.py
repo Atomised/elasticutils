@@ -1931,7 +1931,7 @@ def decorate_with_metadata(obj, result):
         # Explanation of score
         explanation=result.get('_explanation', {}),
         # Highlight bits
-        highlight=result.get('highlight', {})
+        highlight=result.get('highlight', {}),
         # Sort details
         sort=results.get('sort', None)
     )
