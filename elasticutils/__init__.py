@@ -1932,6 +1932,8 @@ def decorate_with_metadata(obj, result):
         explanation=result.get('_explanation', {}),
         # Highlight bits
         highlight=result.get('highlight', {})
+        # Sort details
+        sort=results.get('sort', None)
     )
     # Put the id on the object for convenience
     obj._id = result.get('_id', 0)
